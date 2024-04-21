@@ -5,8 +5,10 @@
 
 - Install Ollama
 - Create custom local LLM made for CrewAI
-  - Run the ./scripts/create_model.sh script
-    - Make this script executable by running `chmod +x ./scripts/create_model.sh`
+  - Run the ./setup/create_llama2-model-file.sh       or 
+            ./setup/create_llama2-model-file.sh
+  script
+    - Make this script executable by running `chmod +x ./setup/create_llama2-model-file.sh `
       or copy and paste commands into terminal
   - This will create a model file in the models directory
   - To change models, edit the create_model.sh script
